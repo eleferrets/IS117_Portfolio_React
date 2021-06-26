@@ -2,7 +2,7 @@
     font-family: "Playfair Display", Georgia, "Noto Sans", "Times New Roman", serif
 }
 .jumbotron {
-    background-image: url(../images/cool.jpg);
+    background-image: url(../assets/cool.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;

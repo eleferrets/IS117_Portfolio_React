@@ -1,7 +1,11 @@
+import {Link} from "react-router-dom";
 import resume_snip from "../../assets/resume-snip.png"
-export default function Content() {
+import westorange_highschool from "../../assets/westorange-highschool.png"
+
+export default function Main() {
 	return (
 		<div className="Content">
+			<div className="bg-dark">
 			<div className="jumbotron jumbotron-fluid col-10 offset-1">
 				<div className="container">
 					<h1 className="display-4 text-center">BJB Portfolio</h1>
@@ -13,16 +17,16 @@ export default function Content() {
 						<div className="card-body">
 							<h5 className="card-title text-danger">Resume</h5>
 							<p className="card-text">Click the button below to view my resume and credentials.</p>
-							<a
-							className="btn btn-dark" href="html/resume.html">Go!&nbsp;<i className="fa fa-bullseye"></i></a>
+							<Link
+							className="btn btn-dark" to="/resume">Go!&nbsp;<i className="fa fa-bullseye"/></Link>
 						</div>
 				</div>
 				<div className="card offset-1 col-4 ml-4" style="width: 18rem;">
-					<img alt="My high school" className="card-img-top img-fluid" src="images/westorange-highschool.png"/>
+					<img alt="My high school" className="card-img-top img-fluid" src={westorange_highschool}/>
 						<div className="card-body">
 							<h5 className="card-title text-danger">About Me</h5>
-							<p className="card-text">Click the button to learn more about me and my education.</p> <a
-							className="btn btn-dark" href="html/school.html">Go!&nbsp;<i className="fa fa-bullseye"></i></a>
+							<p className="card-text">Click the button to learn more about me and my education.</p> <Link
+							className="btn btn-dark" to="/school">Go!&nbsp;<i className="fa fa-bullseye"/></Link>
 						</div>
 				</div>
 			</div>
@@ -34,6 +38,7 @@ export default function Content() {
 				<br/>
 					<br/>
 			</div>
+		</div>
 		</div>
 	);
 }

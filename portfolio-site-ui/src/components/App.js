@@ -3,6 +3,11 @@ import './App.css';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import Home from "./Home/Home";
+import About from "./About/About";
+import Contact from "./Contact/Contact";
+import Projects from "./Projects/Projects";
+import Resume from "./Resume/Resume";
+import School from "./School/School";
 
 export default function App() {
 	return (
