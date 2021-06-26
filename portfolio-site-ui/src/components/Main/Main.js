@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 import resume_snip from "../../assets/resume-snip.png"
-import westorange_highschool from "../../assets/westorange-highschool.png"
+import highschool from "../../assets/westorange-highschool.png"
 
 export default function Main() {
 	return (
@@ -22,7 +22,7 @@ export default function Main() {
 						</div>
 				</div>
 				<div className="card offset-1 col-4 ml-4" style="width: 18rem;">
-					<img alt="My high school" className="card-img-top img-fluid" src={westorange_highschool}/>
+					<img alt="My high school" className="card-img-top img-fluid" src={highschool}/>
 						<div className="card-body">
 							<h5 className="card-title text-danger">About Me</h5>
 							<p className="card-text">Click the button to learn more about me and my education.</p> <Link

@@ -6,23 +6,23 @@ export default function Navbar() {
 		<div className="container-fluid">
 			<div className="row">
 				<nav className="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-10 offset-1">
-					<Link className="navbar-brand" to="/"><i className="fa fa-briefcase"></i></Link>
+					<Link className="navbar-brand" to="/"><i className="fa fa-briefcase"/></Link>
 					<button className="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse"
-					        type="button"><span className="navbar-toggler-icon"></span>
+					        type="button"><span className="navbar-toggler-icon"/>
 					</button>
 					<div className="collapse navbar-collapse" id="collapsibleNavbar">
 						<ul className="navbar-nav">
-							<li className="nav-item"><a className="nav-link" href="html/about.html">About</a>
+							<li className="nav-item"><Link className="nav-link" to="html/about.html">About</Link>
 							</li>
-							<li className="nav-item dropdown"><a className="nav-link dropdown-toggle"
-							                                     data-toggle="dropdown" href="#"
-							                                     id="navbardrop"> Projects </a>
-								<div className="dropdown-menu"><a className="dropdown-item"
-								                                  href="html/school.html">School</a> <a
-									className="dropdown-item" href="html/resume.html">Resume</a>
+							<li className="nav-item dropdown"><Link className="nav-link dropdown-toggle"
+							                                     data-toggle="dropdown" to="#"
+							                                     id="navbardrop"> Projects </Link>
+								<div className="dropdown-menu"><Link className="dropdown-item"
+								                                  to="html/school.html">School</Link> <Link
+									className="dropdown-item" to="html/resume.html">Resume</Link>
 								</div>
 							</li>
-							<li className="nav-item"><a className="nav-link" href="html/contact.html">Contact</a>
+							<li className="nav-item"><Link className="nav-link" to="html/contact.html">Contact</Link>
 							</li>
 						</ul>
 					</div>
