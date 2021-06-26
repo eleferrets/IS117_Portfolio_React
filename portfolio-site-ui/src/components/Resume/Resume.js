@@ -1,6 +1,6 @@
 import resume_doc from "../../assets/resume.docx"
 import resume from "../../assets/resume.png"
-import {Link} from "react-router-dom";
+
 export default function Resume() {
 	return (
 		<div className="Resume">

@@ -14,20 +14,20 @@ export default function Main() {
 			<div className="card-group">
 				<div className="card offset-1 col-4" style={{width: "18rem"}}>
 					<img alt="Resume snippet" className="card-img-top img-fluid" src={resume_snip}/>
-						<div className="card-body">
-							<h5 className="card-title text-danger">Resume</h5>
-							<p className="card-text">Click the button below to view my resume and credentials.</p>
-							<Link
+					<div className="card-body">
+						<h5 className="card-title text-danger">Resume</h5>
+						<p className="card-text">Click the button below to view my resume and credentials.</p>
+						<Link
 							className="btn btn-dark" to="/resume">Go!&nbsp;<i className="fa fa-bullseye"/></Link>
-						</div>
+					</div>
 				</div>
 				<div className="card offset-1 col-4 ml-4" style={{width: "18rem"}}>
 					<img alt="My high school" className="card-img-top img-fluid" src={highschool}/>
-						<div className="card-body">
-							<h5 className="card-title text-danger">About Me</h5>
-							<p className="card-text">Click the button to learn more about me and my education.</p> <Link
-							className="btn btn-dark" to="/school">Go!&nbsp;<i className="fa fa-bullseye"/></Link>
-						</div>
+					<div className="card-body">
+						<h5 className="card-title text-danger">About Me</h5>
+						<p className="card-text">Click the button to learn more about me and my education.</p> <Link
+						className="btn btn-dark" to="/school">Go!&nbsp;<i className="fa fa-bullseye"/></Link>
+					</div>
 				</div>
 			</div>
 			<div className="offset-1 col-10" style={{marginTop: "30px", color: "#333"}}>
@@ -36,7 +36,7 @@ export default function Main() {
 					and a software developer that specializes in <strong>HTML, CSS, JavaScript, and now React</strong>!
 					<br/>You can check out more about me by clicking the links above!</p>
 				<br/>
-					<br/>
+				<br/>
 			</div>
 		</div>
 	);

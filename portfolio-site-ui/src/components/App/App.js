@@ -1,6 +1,5 @@
-
 import './App.css';
-import { BrowserRouter, Switch, Route} from "react-router-dom";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import Home from "../Home/Home";
 import About from "../About/About";
@@ -14,19 +13,19 @@ export default function App() {
 	return (
 		<div className="App">
 			<div className="container-fluid">
-			{/*	This app uses an older react version, so we use switch instead of routes*/}
-			<BrowserRouter>
-				<Navbar/>
-				<Switch>
+				{/*	This app uses an older react version, so we use switch instead of routes*/}
+				<BrowserRouter>
+					<Navbar/>
+					<Switch>
 
-					<Route  path="/about" > <About /></Route>
-					<Route  path="/contact" > <Contact /></Route>
-					<Route  path="/resume" ><Resume /> </Route>
-					<Route  path="/school" ><School /> </Route>
-					<Route  path="/"><Home /> </Route>
-				</Switch>
-<Footer/>
-			</BrowserRouter>
+						<Route path="/about"> <About/></Route>
+						<Route path="/contact"> <Contact/></Route>
+						<Route path="/resume"><Resume/> </Route>
+						<Route path="/school"><School/> </Route>
+						<Route path="/"><Home/> </Route>
+					</Switch>
+					<Footer/>
+				</BrowserRouter>
 			</div>
 		</div>
 	)

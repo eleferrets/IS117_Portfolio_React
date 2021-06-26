@@ -17,29 +17,29 @@ export default function School() {
 				<div className="picture">
 					<figure>
 						<img alt="Gregory Elementary School" className="img-fluid" src={gregory}/>
-							<figcaption>Gregory Elementary School</figcaption>
+						<figcaption>Gregory Elementary School</figcaption>
 					</figure>
 					<figure>
 						<img alt="Edison Middle School" className="img-fluid" src={edison}/>
-							<figcaption>Edison Middle School</figcaption>
+						<figcaption>Edison Middle School</figcaption>
 					</figure>
 					<figure>
 						<img alt="Roosevelt Middle School" className="img-fluid" src={roosevelt}/>
-							<figcaption>Roosevelt Middle School</figcaption>
+						<figcaption>Roosevelt Middle School</figcaption>
 					</figure>
 					<figure>
 						<img alt="West Orange High School" className="img-fluid"
 						     src={highschool2}/>
-							<figcaption>West Orange High School</figcaption>
+						<figcaption>West Orange High School</figcaption>
 					</figure>
 					<figure>
 						<img alt="New Jersey Institute of Technology" className="img-fluid" src={njit}/>
-							<figcaption>New Jersey Institute of Technology</figcaption>
+						<figcaption>New Jersey Institute of Technology</figcaption>
 					</figure>
 					<br/>
 				</div>
 				<br/>
-					<br/>
+				<br/>
 			</div>
 		</div>
 	);

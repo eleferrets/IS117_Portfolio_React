@@ -1,5 +1,5 @@
 import memory_game from "../../assets/memory-game.gif"
-import {Link} from "react-router-dom";
+
 export default function About() {
 	return (
 		<div className="About">
@@ -7,7 +7,7 @@ export default function About() {
 				<h1 className="text-center text-info">My Story</h1>
 				<figure className="offset-1 float-left">
 					<img alt="A picture of a memory game" className="img-fluid col-10" src={memory_game}/>
-						<figcaption>A simple Simon memory game I have created.</figcaption>
+					<figcaption>A simple Simon memory game I have created.</figcaption>
 				</figure>
 				<div className="container-fluid pl-5">
 					<p className="col-11">I am an American of Haitian-descent with a burning passion for making
@@ -27,7 +27,7 @@ export default function About() {
 						hardware. I started making games and small programs in C++ and Visual Basic in high school,
 						furthering my love for technology and coding.
 						<br/>I enjoy fishing, gardening, and web development, with having some experience in Bootstrap
-							and React.</p>
+						and React.</p>
 					<p className="text-center clearfix">Check out my <a href="https://github.com/eleferrets"
 					                                                    target="_blank">GitHub&nbsp;<i
 						className="fa fa-thumbs-up"/></a> page for more information about my web development
@@ -35,17 +35,17 @@ export default function About() {
 						<br/>You can also check out my <a
 							href="https://www.redbubble.com/people/3-Peeps/shop?asc=u&ref=account-nav-dropdown"
 							target="_blank">Redbubble&nbsp;<i className="fa fa-thumbs-up"/></a> page to look at some
-							great designs made with my siblings!
-							<br/>You can even check out my <a href="https://www.linkedin.com/in/brian-balthazar"
-							                                 target="_blank">LinkedIn&nbsp;<i
-								className="fa fa-thumbs-up"/></a> page to look at my qualifications!
-								<br/>Finally, I have a <a href="https://www.youtube.com/channel/UC_28izoaAQ7zpVFpnikiUJw"
-								                         target="_blank">YouTube&nbsp;<i
-									className="fa fa-thumbs-up"/></a> page where I have unboxing videos for products
-									I own. I also have general video game videos in the works, as well!</p>
+						great designs made with my siblings!
+						<br/>You can even check out my <a href="https://www.linkedin.com/in/brian-balthazar"
+						                                  target="_blank">LinkedIn&nbsp;<i
+							className="fa fa-thumbs-up"/></a> page to look at my qualifications!
+						<br/>Finally, I have a <a href="https://www.youtube.com/channel/UC_28izoaAQ7zpVFpnikiUJw"
+						                          target="_blank">YouTube&nbsp;<i
+							className="fa fa-thumbs-up"/></a> page where I have unboxing videos for products
+						I own. I also have general video game videos in the works, as well!</p>
 					<br/>
 				</div>
-		</div>
+			</div>
 		</div>
 	);
 }
