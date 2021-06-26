@@ -12,17 +12,17 @@ export default function Navbar() {
 					</button>
 					<div className="collapse navbar-collapse" id="collapsibleNavbar">
 						<ul className="navbar-nav">
-							<li className="nav-item"><Link className="nav-link" to="html/about.html">About</Link>
+							<li className="nav-item"><Link className="nav-link" to="/about">About</Link>
 							</li>
 							<li className="nav-item dropdown"><Link className="nav-link dropdown-toggle"
 							                                     data-toggle="dropdown" to="#"
 							                                     id="navbardrop"> Projects </Link>
 								<div className="dropdown-menu"><Link className="dropdown-item"
-								                                  to="html/school.html">School</Link> <Link
-									className="dropdown-item" to="html/resume.html">Resume</Link>
+								                                  to="/school">School</Link> <Link
+									className="dropdown-item" to="/resume">Resume</Link>
 								</div>
 							</li>
-							<li className="nav-item"><Link className="nav-link" to="html/contact.html">Contact</Link>
+							<li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link>
 							</li>
 						</ul>
 					</div>

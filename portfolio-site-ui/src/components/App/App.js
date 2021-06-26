@@ -8,6 +8,7 @@ import Contact from "../Contact/Contact";
 import Resume from "../Resume/Resume";
 import School from "../School/School";
 import Footer from "../Footer/Footer";
+import '../../main.css';
 
 export default function App() {
 	return (
@@ -15,11 +16,11 @@ export default function App() {
 			<div className="container-fluid">
 			<BrowserRouter>
 				<Navbar/>
-					<Route path="/" element={<Home/>}/>
-					<Route path="/about" element={<About/>}/>
-					<Route path="/contact" element={<Contact/>}/>
-					<Route path="/resume" element={<Resume/>}/>
-					<Route path="/school" element={<School/>}/>
+				<Route  path="/" element={<Home />}> </Route>
+					<Route  path="/about" element={<About />}> </Route>
+					<Route  path="/contact" element={<Contact />}> </Route>
+					<Route  path="/resume" element={<Resume />}> </Route>
+					<Route  path="/school" element={<School />}> </Route>
 <Footer/>
 			</BrowserRouter>
 			</div>
