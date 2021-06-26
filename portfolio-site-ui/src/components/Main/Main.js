@@ -30,10 +30,10 @@ export default function Main() {
 						</div>
 				</div>
 			</div>
-			<div className="offset-1 col-10" style={{marginTop: "30px"}}>
+			<div className="offset-1 col-10" style={{marginTop: "30px", color: "#333"}}>
 				<p className="text-center">Hi, I'm Brian Balthazar.</p>
 				<p className="text-center">I am a sophomore college student at the New Jersey Institute of Technology,
-					and a software developer that specializes in HTML, CSS, JavaScript!
+					and a software developer that specializes in <strong>HTML, CSS, JavaScript, and now React</strong>!
 					<br/>You can check out more about me by clicking the links above!</p>
 				<br/>
 					<br/>

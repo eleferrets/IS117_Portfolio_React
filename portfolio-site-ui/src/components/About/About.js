@@ -3,7 +3,6 @@ import {Link} from "react-router-dom";
 export default function About() {
 	return (
 		<div className="About">
-			<div className="bg-light">
 			<div className="container-fluid">
 				<h1 className="text-center text-info">My Story</h1>
 				<figure className="offset-1 float-left">
@@ -29,24 +28,23 @@ export default function About() {
 						furthering my love for technology and coding.
 						<br/>I enjoy fishing, gardening, and web development, with having some experience in Bootstrap
 							and React.</p>
-					<p className="text-center clearfix">Check out my <Link to="https://github.com/eleferrets"
+					<p className="text-center clearfix">Check out my <a href="https://github.com/eleferrets"
 					                                                    target="_blank">GitHub&nbsp;<i
-						className="fa fa-thumbs-up"/></Link> page for more information about my web development
+						className="fa fa-thumbs-up"/></a> page for more information about my web development
 						projects!
-						<br/>You can also check out my <Link
-							to="https://www.redbubble.com/people/3-Peeps/shop?asc=u&ref=account-nav-dropdown"
-							target="_blank">Redbubble&nbsp;<i className="fa fa-thumbs-up"/></Link> page to look at some
+						<br/>You can also check out my <a
+							href="https://www.redbubble.com/people/3-Peeps/shop?asc=u&ref=account-nav-dropdown"
+							target="_blank">Redbubble&nbsp;<i className="fa fa-thumbs-up"/></a> page to look at some
 							great designs made with my siblings!
-							<br/>You can even check out my <Link to="https://www.linkedin.com/in/brian-balthazar"
+							<br/>You can even check out my <a href="https://www.linkedin.com/in/brian-balthazar"
 							                                 target="_blank">LinkedIn&nbsp;<i
-								className="fa fa-thumbs-up"/></Link> page to look at my qualifications!
-								<br/>Finally, I have a <Link to="https://www.youtube.com/channel/UC_28izoaAQ7zpVFpnikiUJw"
+								className="fa fa-thumbs-up"/></a> page to look at my qualifications!
+								<br/>Finally, I have a <a href="https://www.youtube.com/channel/UC_28izoaAQ7zpVFpnikiUJw"
 								                         target="_blank">YouTube&nbsp;<i
-									className="fa fa-thumbs-up"/></Link> page where I have unboxing videos for products
+									className="fa fa-thumbs-up"/></a> page where I have unboxing videos for products
 									I own. I also have general video game videos in the works, as well!</p>
 					<br/>
 				</div>
-		</div>
 		</div>
 		</div>
 	);
