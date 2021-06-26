@@ -5,6 +5,7 @@ import highschool from "../../assets/westorange-highschool.png"
 export default function Main() {
 	return (
 		<div className="Content">
+
 			<div className="bg-dark">
 			<div className="jumbotron jumbotron-fluid col-10 offset-1">
 				<div className="container">

@@ -38,7 +38,7 @@ export default function School() {
 					</figure>
 					<br/>
 				</div>
-				<!-- Prevents cutting off content -->
+				{/* Prevents cutting off content */}
 				<br/>
 					<br/>
 			</div>
