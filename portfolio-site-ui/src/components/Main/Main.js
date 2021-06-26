@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
 import resume_snip from "../../assets/resume-snip.png"
 import highschool from "../../assets/westorange-highschool.png"
+import React from 'react';
 
 export default function Main() {
 	return (

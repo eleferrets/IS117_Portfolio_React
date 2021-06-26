@@ -1,5 +1,5 @@
 import memory_game from "../../assets/memory-game.gif"
-
+import React from 'react';
 export default function About() {
 	return (
 		<div className="About">

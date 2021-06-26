@@ -3,7 +3,7 @@ import edison from "../../assets/edison-school.png"
 import roosevelt from "../../assets/roosevelt-school.jpg"
 import highschool2 from "../../assets/westorange-highschool2.png"
 import njit from "../../assets/njit.jpg"
-
+import React from 'react';
 export default function School() {
 	return (
 		<div className="School">

@@ -1,6 +1,6 @@
 import resume_doc from "../../assets/resume.docx"
 import resume from "../../assets/resume.png"
-
+import React from 'react';
 export default function Resume() {
 	return (
 		<div className="Resume">
