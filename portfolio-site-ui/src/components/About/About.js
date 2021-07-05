@@ -1,13 +1,15 @@
 import memory_game from "../../assets/memory-game.gif"
 import React from 'react';
+import Picture from "../Picture/Picture";
+
 export default function About() {
 	return (
 		<div className="About">
 			<div className="container-fluid">
 				<h1 className="text-center text-info">My Story</h1>
 				<figure className="offset-1 float-left">
-					<img alt="A picture of a memory game" className="img-fluid col-10" src={memory_game}/>
-					<figcaption>A simple Simon memory game I have created.</figcaption>
+					<Picture alt={"A picture of a memory game"} className={"img-fluid col-10"} src={memory_game}
+					         caption={"A simple Simon memory game I have created."}/>
 				</figure>
 				<div className="container-fluid pl-5">
 					<p className="col-11">I am an American of Haitian-descent with a burning passion for making

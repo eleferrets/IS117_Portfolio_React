@@ -4,6 +4,8 @@ import roosevelt from "../../assets/roosevelt-school.jpg"
 import highschool2 from "../../assets/westorange-highschool2.png"
 import njit from "../../assets/njit.jpg"
 import React from 'react';
+import Picture from "../Picture/Picture";
+
 export default function School() {
 	return (
 		<div className="School">
@@ -16,25 +18,24 @@ export default function School() {
 					Computer Science. Below are some pictures of my favorite schools!</p>
 				<div className="picture">
 					<figure>
-						<img alt="Gregory Elementary School" className="img-fluid" src={gregory}/>
-						<figcaption>Gregory Elementary School</figcaption>
+						<Picture alt={"Gregory Elementary School"} className={"img-fluid"} src={gregory}
+						         caption={"Gregory Elementary School"}/>
 					</figure>
 					<figure>
-						<img alt="Edison Middle School" className="img-fluid" src={edison}/>
-						<figcaption>Edison Middle School</figcaption>
+						<Picture alt={"Edison Middle School"} className={"img-fluid"} src={edison}
+						         caption={"Edison Middle School"}/>
 					</figure>
 					<figure>
-						<img alt="Roosevelt Middle School" className="img-fluid" src={roosevelt}/>
-						<figcaption>Roosevelt Middle School</figcaption>
+						<Picture alt={"Roosevelt Middle School"} className={"img-fluid"} src={roosevelt}
+						         caption={"Roosevelt Middle School"}/>
 					</figure>
 					<figure>
-						<img alt="West Orange High School" className="img-fluid"
-						     src={highschool2}/>
-						<figcaption>West Orange High School</figcaption>
+						<Picture alt={"West Orange High School"} className={"img-fluid"} src={highschool2}
+						         caption={"West Orange High School"}/>
 					</figure>
 					<figure>
-						<img alt="New Jersey Institute of Technology" className="img-fluid" src={njit}/>
-						<figcaption>New Jersey Institute of Technology</figcaption>
+						<Picture alt={"New Jersey Institute of Technology"} className={"img-fluid"} src={njit}
+						         caption={"New Jersey Institute of Technology"}/>
 					</figure>
 					<br/>
 				</div>

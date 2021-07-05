@@ -2,6 +2,7 @@ import {Link} from "react-router-dom";
 import resume_snip from "../../assets/resume-snip.png"
 import highschool from "../../assets/westorange-highschool.png"
 import React from 'react';
+import Picture from "../Picture/Picture";
 
 export default function Main() {
 	return (
@@ -14,7 +15,8 @@ export default function Main() {
 			</div>
 			<div className="card-group">
 				<div className="card offset-1 col-4" style={{width: "18rem"}}>
-					<img alt="Resume snippet" className="card-img-top img-fluid" src={resume_snip}/>
+					<Picture alt={"Resume snippet"} className={"card-img-top img-fluid"} src={resume_snip}
+					         caption={""}/>
 					<div className="card-body">
 						<h5 className="card-title text-danger">Resume</h5>
 						<p className="card-text">Click the button below to view my resume and credentials.</p>
@@ -23,7 +25,8 @@ export default function Main() {
 					</div>
 				</div>
 				<div className="card offset-1 col-4 ml-4" style={{width: "18rem"}}>
-					<img alt="My high school" className="card-img-top img-fluid" src={highschool}/>
+					<Picture alt={"My high school"} className={"card-img-top img-fluid"} src={highschool}
+					         caption={""}/>
 					<div className="card-body">
 						<h5 className="card-title text-danger">About Me</h5>
 						<p className="card-text">Click the button to learn more about me and my education.</p> <Link
